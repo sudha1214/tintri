@@ -14,9 +14,12 @@ npm install
 # This will build and launch the application on port 8000
 npm start 
 ```
+Navigate to http://localhost:8000/
 
 ## Running the tests
 ```
 npm test
 ```
+#### Working Demo(plunker)
+https://plnkr.co/edit/hsMZyvYc9SNgMCXApSiz?p=preview
 
