@@ -1,0 +1,51 @@
+.card{
+    margin: 16px;
+    border: 2px solid #EBEBEB;
+    width: 300px;
+    font-family: sans-serif;
+}
+
+.currentStatus {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 18px;
+}
+
+.dotIcon {
+    color: #8C8C8C;
+}
+.cardDetails {
+    padding-left: 18px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid #F2F2F2;
+}
+.cardDetails p {
+    margin: 0px;
+    color: #AFADB2
+}
+.name{
+    color: #468B87;
+    margin: 0px;
+    font-weight: normal;
+}
+.machineCount {
+    display: flex;
+}
+.machineCount > div {
+    width: 100%;
+    padding: 15px 18px;
+}
+.machineCount h5 {
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.vms {
+    border-right: 2px solid #F2F2F2;
+}
+.vms h5{
+    color: #3F9382;
+}
+.error {
+    color:rgb(183,34,34);
+    margin: 0px;
+}

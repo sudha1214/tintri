@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="currentStatus">
+             <h4 class="error"> <i class="fas fa-exclamation-circle"></i> {{$ctrl.details.currentStatus}}</h4> 
+             <span class="dotIcon"> <i class="fas fa-ellipsis-h"></i> </span>
+    </div>
+    <div class="cardDetails">
+        <h1 id="name2" class="name"> {{$ctrl.details.name}} </h1>
+        <p class="desc"> {{$ctrl.details.description}} </p>
+        <p class="path"> {{$ctrl.details.path}} </p>
+    </div>
+    <div class="machineCount">
+        <div class="vms"> 
+            <h5> Vms </h5>
+            <span> {{$ctrl.details.virtualMachines}}</span>
+        </div>
+        <div class="error"> 
+            <h5> ERRORS </h5>
+            <span> {{$ctrl.details.errors}} </span>
+        </div>
+    </div>
+</div>
